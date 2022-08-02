@@ -1,10 +1,10 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
-const Details = () => {
+const Details = ({ data }) => {
   return (
     <View>
-      <Text>Details</Text>
+      <Text>👋</Text>
     </View>
   )
 }
